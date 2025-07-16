@@ -1,18 +1,5 @@
 # Resonate Data Lab Sound Website
 
- ## Deo
-- Sound is an extension of a body. It's an extension of how we as a people interact, reflect, and live.
-- Sound is that element that always knows what to say when we don’t.
-- Sound is what makes things visible
-- Sound is a friend, adventure guide, and teacher
-- Sound is empowering
-- Sound comforting
-- Some embraces, pushes, and fights with you
-- Sound never walks out, always present
-- Sound is gentle, cruel, big
-- Sound holds, it pours, and connects
-- Sound is a witness to time
-
 
 ## Sarena's Sound is
 
@@ -36,3 +23,14 @@
 - Sound is a gulf and direct contact, at the same time.
 - Sound invites us to wonder.
 - Sound is always in flux. Sound is motion.
+
+## Catelyn's Sound Manifesto
+- Sound acts as reassurance for interaction.
+- Sound can be a means for expression (you in the present), understanding/awareness (of your surroundings), reflection (you in the past), and communication (you with others).
+- Sound reflects embodied space and time.
+- Sound can keep you present.
+- Sound acknowledges matter.
+- Sound shapes individuals/individuality.
+- Everyone has different experiences (past and present) with sound.
+- Sound is contradictory/multifaceted (ugly and beautiful, loud and quiet, sharp and soft, new and expected).
+
