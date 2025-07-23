@@ -1,50 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sonic Archiving Resources</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <aside class="sidebar">
-    <h1 class="logo">+ Sonic Tools</h1>
-    <nav>
-      <ul>
-        <li><a href="#tools">Tools for Exploring Sound</a></li>
-        <li><a href="#work">Interesting Work</a></li>
-        <li><a href="#conferences">Conferences</a></li>
-        <li><a href="#journals">Journals</a></li>
-        <li><a href="#papers">Research Paper Recs</a></li>
-      </ul>
-    </nav>
-  </aside>
-  <main class="content">
-    <header class="header">
-      <h2>The best sonic tools and research for sonic archiving</h2>
-      <p>Curated resources for artists, designers, and researchers exploring personal sound archiving</p>
-    </header>
-    <section id="tools" class="resource-section">
-      <h3>Tools for Exploring Sound</h3>
-      <div class="cards"></div>
-    </section>
-    <section id="work" class="resource-section">
-      <h3>Interesting Work</h3>
-      <div class="cards"></div>
-    </section>
-    <section id="conferences" class="resource-section">
-      <h3>Conferences</h3>
-      <div class="cards"></div>
-    </section>
-    <section id="journals" class="resource-section">
-      <h3>Journals</h3>
-      <div class="cards"></div>
-    </section>
-    <section id="papers" class="resource-section">
-      <h3>Research Paper Recommendations</h3>
-      <div class="cards"></div>
-    </section>
-  </main>
-  <script src="script.js"></script>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: 'CG Times', 'Times New Roman', Times, serif;
+  display: flex;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+.sidebar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.content {
+  margin-left: 260px;
+  padding: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.resource-section {
+  margin-bottom: 60px;
+}
+
+/* Category styling */
+.category-header {
+  margin: 30px 0 20px 0;
+}
+
+.category-header h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: block;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+  color: #555;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #0066ff;
+  text-decoration: none;
+}
